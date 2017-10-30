@@ -11,6 +11,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.notification_sound=Duet.ogg \
+    ro.config.alarm_alert=Sunshower.ogg
+
+# Default notification/alarm sounds
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.notification_sound=Argon.ogg \
     ro.config.alarm_alert=Hassium.ogg
 

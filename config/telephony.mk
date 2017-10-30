@@ -20,3 +20,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # (for devices that check this)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
+
+# Default ringtone
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.ringtone=The_big_adventure.ogg
