@@ -142,4 +142,4 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
--include vendor/google/config/common.mk
+-include vendor/pixel/config/common.mk
